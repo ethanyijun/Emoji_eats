@@ -8,11 +8,11 @@ const Order = ({order, total, handleReset, handleSubmit}) => (
         {order.length === 0 ? (
         <React.Fragment>
         <div className="order__text">
-            You haven't ordered any emojis yet. Select some delicious emojis frojm the list
+            You haven't ordered any emojis yet. Select some delicious emojis from the list
         </div>
         <div className="order_emoji">
             <span role="img" aria-label="point">
-                👉
+                👈
             </span>
         </div>
         </React.Fragment>
